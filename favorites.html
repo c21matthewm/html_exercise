@@ -6,21 +6,49 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Favorite Animal</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Matthew</td>
-                <td>Mark</td>
-                <td>Elk</td>
-            </tr>
-        </tbody>
-    </table>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Favorite Animal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matthew</td>
+                    <td>Mark</td>
+                    <td>Elk</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <dl>
+            <dt>Rock</dt>
+            <dd>Rock beats scissors</dd>
+            <dt>Paper</dt>
+            <dd>Paper beats rock</dd>
+            <dt>Scissors</dt>
+            <dd>Scissors beats paper</dd>
+        </dl>
+    </div>
+    <label>
+        Name: 
+        <input type="text" name="first" value="" placeholder="First Name">
+    </label>
+    <div>
+        <form>
+            <input type="text" name="username" placeholder="Username">
+            <input type="text" name="favColor" placeholder="Favorite Color">
+            <input type="text" name="galvanizeCohort" placeholder="Galvanize Cohort">
+            <select name="location">
+              <option value="atHome">At Home</option>
+              <option value="somewhereElse">Somewhere Else</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
